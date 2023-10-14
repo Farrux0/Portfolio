@@ -1,0 +1,107 @@
+.nav{
+    background: rgba(43, 40, 40, 0.5);
+border-bottom: 2px solid gray;
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+z-index: 1000;
+
+&__box{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 90px;
+&-list{
+
+display: flex;
+gap: 30px;
+&-link{
+font-size: 18px;
+color: white;
+font-weight: 700;
+transition: all 0.5s;
+&.router-link-active {
+color: orange; 
+
+}
+&-link:hover{
+color: orange;
+}
+}
+
+}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo{
+width: 70px;
+height: 70px;
+
+}
